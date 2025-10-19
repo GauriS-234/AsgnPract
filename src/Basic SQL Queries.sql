@@ -1,0 +1,7 @@
+select FIRST_NAME AS WORKER_NAME FROM Worker;
+select UPPER(FIRST_NAME)  FROM Worker;
+select DISTINCT DEPARTMENT FROM Worker;
+select substring(FIRST_NAME,1,3) FROM Worker;
+select RTRIM(FIRST_NAME)  FROM Worker;
+select LTRIM(FIRST_NAME)  FROM Worker;
+select DISTINCT DEPARTMENT, length(DEPARTMENT) FROM Worker;
